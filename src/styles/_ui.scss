@@ -1,0 +1,30 @@
+
+.button_auth {
+  border-radius: 5px;
+  background: #7367f0;
+  margin-top: 20px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  border: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  &_reg {
+    margin-top: 5px;
+  }
+}
+
+.input {
+  border: 1px solid #d8d6de;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  margin-bottom: 5px;
+}

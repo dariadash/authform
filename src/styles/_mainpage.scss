@@ -1,0 +1,36 @@
+@use 'ui';
+@use 'typography';
+
+body {
+  background-color: #fbfafd;
+}
+
+.main__container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border-radius: 6px;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.main__h1 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 44px;
+  letter-spacing: -0.428571px;
+
+  color: #6e6b7b;
+  &_modal {
+    height: 24px;
+    left: calc(50% - 330px / 2);
+    line-height: 24px;
+  }
+}
